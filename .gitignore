@@ -1,0 +1,27 @@
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# YOLO model weights
+*.pt
+
+# Generated snapshots and logs
+snapshots/*
+!snapshots/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
